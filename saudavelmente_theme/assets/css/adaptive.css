@@ -1,0 +1,123 @@
+#header-menu-mobil {
+	display: none;
+  	background-color: #eef4f4;
+  	position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+#header-menu-mobil div.netgo_navigation {
+     margin-bottom: 0px; 
+}
+
+div.netgo_navigation  #menu-mobil-header-menu ul.sub-menu li a {
+	text-transform: uppercase;
+}
+div.netgo_navigation ul#menu-mobil-header-menu ul li {
+    border-top: 1px solid #ccc;
+    padding: 23px 0;
+}
+
+@media screen and (min-width: 1200px) {
+	#carousel-home .carousel-inner>.carousel-item>img {
+	    width: 100%;
+	        height: 100%;
+	}
+/*	.stared_posts-image {
+		width: 100%;
+	}*/
+}
+
+@media screen and (max-width: 1200px) {
+	div.netgo_navigation ul:first-child >  li > a {
+		display: block;
+	}
+	div.netgo_navigation li.menu-item-has-children:before {
+	    right: 20px !important;
+	}
+	.stared_posts-content {
+	    min-height: 280px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.stared_posts-content {
+	    min-height: 233px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+	.stared_posts-content {
+	    min-height: 312px;
+	}
+	#footer-social-wrap {
+	    padding-left: 0;
+	    text-align: center;
+	}
+	#related_posts {
+	    margin-left: -30px;
+	}
+	.stared_posts-content .stared_posts-image {
+	    height: 100%;
+	}
+	.stared_posts-block-col {
+	    max-width: inherit;
+	}
+
+	.mobileon{display:block;}
+	.mobileoff{display:none;}
+
+	#under-footer {
+		text-align: center;
+	}
+	#footer_5, #footer_6 {
+	  margin-top: 0px;
+	}
+
+	#header .container {
+		max-width: 750px;
+	    padding: 0;
+	    margin: 0;
+	}
+	#mainlogo {
+	    padding: 40px 0 45px 45px;
+	}
+	.container.page-wrap {
+		max-width: 750px;
+	    padding: 0 45px 0 45px;
+	    margin: 0;
+	}
+	.page-content {
+	    border-left: none;
+	    /*margin-bottom: 60px;*/
+	}
+
+	.widget_netgo_navigation {
+	    margin-left: 0;
+	}
+
+	div.netgo_navigation ul > li> a {
+		padding:0 0 0 45px;
+	}
+	div.netgo_navigation li.menu-item-has-children:before {
+	    font-size: 30px;
+	}
+
+	#footer-menu-wrap {
+	    padding: 0;
+	}
+	#footer-menu-mobil div.netgo_navigation {
+	    margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 544px) {
+
+}
+
+@media screen and (max-width: 460px) {
+	#mainlogo img {
+		    width: 55%;
+    		padding-top: 5px;
+	}
+}
