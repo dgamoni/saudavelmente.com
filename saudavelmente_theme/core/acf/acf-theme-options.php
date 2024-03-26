@@ -1,0 +1,115 @@
+<?php
+if( function_exists('acf_add_local_field_group') ):
+
+acf_add_local_field_group(array (
+	'key' => 'group_5823237346bf3',
+	'title' => 'Saudavelmente Theme Options',
+	'fields' => array (
+		array (
+			'sub_fields' => array (
+				array (
+					'default_value' => '',
+					'placeholder' => '',
+					'key' => 'field_582323f4af8c6',
+					'label' => 'facebook link',
+					'name' => 'gal_social_icon_link_fb',
+					'type' => 'url',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+				),
+				array (
+					'default_value' => '',
+					'placeholder' => '',
+					'key' => 'field_582324a4af8c9',
+					'label' => 'twitter link',
+					'name' => 'gal_social_icon_link_twitter',
+					'type' => 'url',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+				),
+				array (
+					'default_value' => '',
+					'placeholder' => '',
+					'key' => 'field_5836a755d4a6f',
+					'label' => 'google_link',
+					'name' => 'gal_social_icon_link_google',
+					'type' => 'url',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+				),
+				array (
+					'default_value' => '',
+					'placeholder' => '',
+					'prepend' => '',
+					'append' => '',
+					'key' => 'field_5836a769d4a70',
+					'label' => 'email',
+					'name' => 'gal_social_icon_link_email',
+					'type' => 'email',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+				),
+			),
+			'min' => 0,
+			'max' => 1,
+			'layout' => 'row',
+			'button_label' => 'Add',
+			'collapsed' => '',
+			'key' => 'field_58232391fdfcd',
+			'label' => 'Social icon',
+			'name' => 'gal_social_icon',
+			'type' => 'repeater',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'options_page',
+				'operator' => '==',
+				'value' => 'acf-options-theme-options',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
+endif;

@@ -37,6 +37,9 @@ function wpt_register_js()
         wp_enqueue_style( 'saudavelmente-theme-style', get_stylesheet_uri() );
         wp_enqueue_style( 'yamm-css', get_template_directory_uri() . "/assets/css/yamm.css");
         wp_enqueue_style( 'adaptive-css', get_template_directory_uri() . "/assets/css/adaptive.css");
+        wp_enqueue_style( 'svg-sprite-css', get_template_directory_uri() . "/assets/svg/iconizr-svg-sprite.css");
+        wp_enqueue_style( 'svg-sprite-css-big', get_template_directory_uri() . "/assets/svg_big/iconizr-svg-sprite.css");
+        wp_enqueue_style( 'svg-sprite-css-big2', get_template_directory_uri() . "/assets/svg_big2/iconizr-svg-sprite.css");
 
         wp_localize_script( 'custom-js', 'js_url', 
             array( 

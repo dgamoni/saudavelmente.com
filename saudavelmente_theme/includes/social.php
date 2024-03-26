@@ -20,10 +20,18 @@ if( have_rows('gal_social_icon', 'option') ): ?>
 						$carrent_link = get_permalink( $post->ID );
 						$name = get_the_title( $post->ID );
 						?>
-						<li><a class="social_icon_s social_icon_link_fb" onclick="deco_soc_sharing_window('https://www.facebook.com/sharer/sharer.php?u=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Facebook</a></li>
+						<!-- svg -->
+						<li><a class="social_icon_s_svg social_icon_link_fb_svg" onclick="deco_soc_sharing_window('https://www.facebook.com/sharer/sharer.php?u=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Facebook</a></li>
+						<li><a class="social_icon_s social_icon_link_google" onclick="deco_soc_sharing_window('https://plus.google.com/share?url=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Google+</a></li>
+						<li><a class="social_icon_s_svg social_icon_link_email_svg" href="mailto:<?php echo $gal_social_icon_link_email;?>">Send Email</a></li>
+						<li><a class="social_icon_s_svg social_icon_link_twitter_svg" onclick="deco_soc_sharing_window('https://twitter.com/home?status=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Twitter</a></li>
+
+						<!-- png -->
+						<!-- <li><a class="social_icon_s social_icon_link_fb" onclick="deco_soc_sharing_window('https://www.facebook.com/sharer/sharer.php?u=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Facebook</a></li>
 						<li><a class="social_icon_s social_icon_link_google" onclick="deco_soc_sharing_window('https://plus.google.com/share?url=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Google+</a></li>
 						<li><a class="social_icon_s social_icon_link_email" href="mailto:<?php echo $gal_social_icon_link_email;?>">Send Email</a></li>
-						<li><a class="social_icon_s social_icon_link_twitter" onclick="deco_soc_sharing_window('https://twitter.com/home?status=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Twitter</a></li>
+						<li><a class="social_icon_s social_icon_link_twitter" onclick="deco_soc_sharing_window('https://twitter.com/home?status=<?php echo $carrent_link;?>', '<?php echo $name; ?>'); return false;" href="#">Share on Twitter</a></li> -->
+						
 						<?php
 						//echo '<li ><a class="social_icon_s social_icon_link_fb" href="'.$gal_social_icon_link_fb.'">fb</a></li>';
 						//echo '<li ><a class="social_icon_s social_icon_link_google" href="'.$gal_social_icon_link_google.'">google</a></li>';

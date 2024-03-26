@@ -8,6 +8,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&subset=latin-ext" rel="stylesheet">
 
 	<?php wp_head(); ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49069318-15', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -21,14 +30,16 @@
 			<div id="mainlogo" class="text-md-center">
 				<div id="blog-title" class="blogtitle">
 					<a href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php bloginfo('name') ?>">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt=""> --> 
+						<img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/saudavelmente_logo.svg" alt="">
 					</a>
 				</div>
 			</div>
 
 			<div id="header-baner" class="mobileoff">
 				<a href="https://www.ordemdospsicologos.pt" title="<?php bloginfo('name') ?>" target="_blank">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/baner.png" alt="">
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/baner.png" alt=""> -->
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/op_logo.svg" alt="">
 				</a>
 			</div>
 

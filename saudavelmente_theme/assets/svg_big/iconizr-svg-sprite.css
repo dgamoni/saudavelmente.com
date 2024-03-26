@@ -1,0 +1,67 @@
+/* Icons from directory "" */
+.icon-email_off,.icon-email_off\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 0;
+	background-repeat:no-repeat}
+.icon-email_off-dims{width:41px;height:41px}
+.icon-email_on,.icon-email_on\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 -41px;
+	background-repeat:no-repeat}
+.icon-email_on-dims{width:41px;height:41px}
+
+.icon-facebook_off,.icon-facebook_off\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 -82px;
+	background-repeat:no-repeat}
+.icon-facebook_off-dims{width:41px;height:41px}
+.icon-faqcebook_on,.icon-faqcebook_on\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 -123px;
+	background-repeat:no-repeat}
+.icon-faqcebook_on-dims{width:41px;height:41px}
+
+.icon-twitter_off,.icon-twitter_off\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 -164px;
+	background-repeat:no-repeat}
+.icon-twitter_off-dims{width:41px;height:41px}
+.icon-twitter_on,.icon-twitter_on\:regular{
+	background-image:url('icons/icons.svg');
+	background-position:0 -205px;
+	background-repeat:no-repeat}
+.icon-twitter_on-dims{width:41px;height:41px}
+
+/*big*/
+.social_icon_b_svg {
+  background: url('icons/icons.svg') no-repeat;
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  text-indent: -20000px;
+}
+/*big*/
+.social_icon_b_svg.social_icon_link_fb_svg {
+  background-position:0 -82px;
+}
+.social_icon_b_svg.social_icon_link_fb_svg:hover {
+  background-position:0 -123px;
+}
+/*.social_icon_b_svg.social_icon_link_google_svg {
+  background-position: -51px -155px;
+}
+.social_icon_b_svg.social_icon_link_google_svg:hover {
+  background-position: -51px -204px;
+}*/
+.social_icon_b_svg.social_icon_link_email_svg {
+  background-position:0 0;
+}
+.social_icon_b_svg.social_icon_link_email_svg:hover {
+  background-position:0 -41px;
+}
+.social_icon_b_svg.social_icon_link_twitter_svg {
+  background-position:0 -164px;
+}
+.social_icon_b_svg.social_icon_link_twitter_svg:hover {
+  background-position:0 -205px;
+}

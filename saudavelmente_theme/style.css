@@ -88,6 +88,10 @@ a:focus, a:hover {
 #mainlogo {
   padding: 40px 0 45px 0;
 }
+#mainlogo img {
+  width: 323px;
+/*  height: 111px;*/
+}
 #header {
   position: relative;
 }
@@ -96,9 +100,13 @@ a:focus, a:hover {
   top: 58px;
   right: 30px;
 }
+#header-baner img {
+  width: 56px;
+}
 .mobil-menu-icon {
-  background: url('assets/img/sprite.png') no-repeat;
-  background-position: -179px 0px;
+  background: url('assets/img/menu-01.svg') no-repeat;
+  /*background: url('assets/img/sprite.png') no-repeat;*/
+  /*background-position: -179px 0px;*/
   width: 78px;
   height: 78px;
   display: flex;
@@ -145,9 +153,10 @@ a:focus, a:hover {
 }
 
 /*footer*/
-.col-footer-menu {
+/* .col-footer-menu {
   min-height: 192px;
 }
+*/
 #footer-menu-wrap {
   padding: 24px 0 32px 0;
   background-color: #d8e0e0;
@@ -198,6 +207,9 @@ a:focus, a:hover {
 .page-content {
       border-left: 1px solid #d3d3d3;
           margin-bottom: 60px;
+}
+.page-template-template-fullwidth .page-content {
+    border-left: none;
 }
 .button-wrap {
   margin-top: 50px;
@@ -250,6 +262,8 @@ home*/
   z-index: 0;
   height: 100%;
   object-fit: cover;
+  left: 0;
+  top: 0;
 }
 .stared_posts-content {
     /*position: absolute;*/
@@ -258,11 +272,13 @@ home*/
     text-align: center;
     /*min-height: 320px;*/
     min-height: 312px;
-      display: flex;
+  height: 312px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
 }
+
 .stared_posts-content * {
   z-index: 1;
 }
@@ -450,3 +466,33 @@ padding: 0;
 .tg-s6z2 td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-width:0px;overflow:hidden;word-break:normal;}
 .tg-s6z2 th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-width:0px;overflow:hidden;word-break:normal;}
 .tg-s6z2{text-align:center}
+
+
+/* Activate menu on sub pages */
+#header-menu ul li.current-page-ancestor {
+    background-color: #f5fbfb;
+}
+
+
+/* Custom css for CF7 */
+
+.wpcf7-submit {
+	background: #ff7900;
+	color: #ffffff;
+	border: 0;
+	font-family: 'GothamRounded-Bold';
+	padding: 15px 25px 15px 25px;
+	font-size: 14px;
+}
+.wpcf7-form input:hover[type="submit"] {
+    cursor:pointer;
+    background: #787878;
+}
+.wpcf7-file {
+	background: #F5FBFB;
+	border: 0;
+	padding: 5px 25px 5px 25px;
+	font-size: 13px;
+}
+
+
